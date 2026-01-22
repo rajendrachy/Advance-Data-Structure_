@@ -1,0 +1,36 @@
+
+
+
+Link -> https://www.geeksforgeeks.org/dsa/introduction-to-binary-search-tree/
+
+
+
+
+
+# Introduction to Binary Search Tree
+- Binary Search Tree is a data structure used in computer science for organizing and storing data in a sorted manner. 
+- This hierarchical structure allows for efficient Searching, Insertion, and Deletion operations on the data stored in the tree.
+
+
+
+
+
+
+# Properties of Binary Search Tree:
+The left subtree of a node contains only nodes with keys less than the node's key.
+The right subtree of a node contains only nodes with keys greater than the node's key.
+
+
+
+
+
+# Important Points about BST
+- A Binary Search Tree is useful for maintaining sorted stream of data. 
+- It allows search, insert, delete, ceiling, max and min in O(h) time.
+- Hence we achieve, the above mentioned O(h) operations in O(Log n) time.
+
+
+
+
+
+

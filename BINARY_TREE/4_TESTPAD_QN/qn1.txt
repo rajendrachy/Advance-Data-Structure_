@@ -1,0 +1,6 @@
+Create a binary tree from array
+-> take one Queue data structure
+-> curr = q.poll() → removes and returns 1
+
+
+

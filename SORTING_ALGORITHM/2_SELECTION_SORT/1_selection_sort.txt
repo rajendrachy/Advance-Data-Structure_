@@ -1,0 +1,20 @@
+# Selection sort : -> https://www.geeksforgeeks.org/dsa/selection-sort-algorithm-2/ => gfg_link
+
+
+
+
+# Selection Sort : -> 
+-  Selection Sort is a comparison-based sorting algorithm. It sorts an array by repeatedly selecting the smallest (or largest) element from the unsorted portion and swapping it with the first unsorted element. This process continues until the entire array is sorted.
+
+
+
+
+
+
+
+T.C -> O(n^2)
+
+
+
+
+

@@ -1,0 +1,8 @@
+
+
+
+# Types of Binary Tree :-> https://www.geeksforgeeks.org/dsa/types-of-binary-tree/ => gfg_link
+
+
+
+

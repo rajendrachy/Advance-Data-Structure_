@@ -1,0 +1,27 @@
+# HashSet -> https://www.w3schools.com/java/java_hashset.asp => w3schools_link
+
+
+
+
+
+
+
+
+-A HashSet is a collection of elements where every element is unique.
+-It is part of the java.util package and implements the Set interface.
+
+
+#------------Syntax-------------
+HashSet<String> cars = new HashSet<String>();
+
+
+
+
+
+#----------Check If an Element Exists------------
+-To check whether an element exists in a HashSet, use the contains() method:
+----------Example---------
+~cars.contains("Mazda"); // it return true or false
+
+
+

@@ -1,0 +1,6 @@
+
+
+# Linear_Search : -> https://www.geeksforgeeks.org/dsa/linear-search/ => gfg_link
+
+
+

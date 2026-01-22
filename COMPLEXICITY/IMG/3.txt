@@ -1,0 +1,57 @@
+🔎------------- Linear Search---------------
+Checks each element one by one until the key is found or array ends.
+
+int linearSearch(int arr[], int key) {
+    for (int i = 0; i < arr.length; i++) {
+        if (arr[i] == key)
+            return i; // found
+    }
+    return -1; // not found
+}
+
+
+
+
+
+------------- Best Case--------------
+When the element is at the first position.
+Comparisons: 1
+Time Complexity: O(1)
+
+
+
+
+
+
+
+
+------------- Worst Case---------------
+When the element is at the last position OR not present.
+Comparisons: n
+Time Complexity: O(n)
+
+
+
+
+
+
+-----------Average Case-----------
+On average, element is somewhere in the middle.
+Comparisons: ≈ n/2
+Time Complexity: O(n)
+
+
+
+
+-----------Summary-----------------
+Case	              Comparisons	                    Complexity
+Best	                    1	                         O(1)
+Worst                   	n	                         O(n)
+Average                	n/2	                             O(n)
+
+
+
+
+
+
+

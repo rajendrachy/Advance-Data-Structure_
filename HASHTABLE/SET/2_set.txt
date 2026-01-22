@@ -1,0 +1,54 @@
+# Set: -> https://www.w3schools.com/java/java_set.asp => w3schools_link
+
+
+
+
+
+//---------Set------------------ 
+-Store in the form of array -> []
+-The Set interface is part of the Java Collections Framework and is used to store a collection of unique elements.
+-a Set does not allow duplicates, and it does not preserve the order of elements (unless you're using TreeSet or LinkedHashSet).
+
+
+
+
+
+-------------Common classes that implement Set:-----------
+# HashSet - fast and unordered
+# TreeSet - sorted set
+# LinkedHashSet - ordered by insertion
+
+~Tip: Use a Set when you need to store unique values only.
+
+
+
+
+
+
+#-------------Common                    Set Methods-----------------------------------
+Method	                  Description
+add()	                   Adds an element if it's not already in the set
+remove()	               Removes the element from the set
+contains()	             Checks if the set contains the element
+size()	                 Returns the number of elements
+clear()	                 Removes all elements
+
+ ====> a,r,c,s,c
+
+
+
+
+
+ #--------------------Set vs. List----------------------
+List	                                                      Set
+Allows duplicates	                                          Does not allow duplicates
+Maintains order	                                            Does not guarantee order
+Access by index	                                            No index-based access
+
+
+
+
+
+
+
+

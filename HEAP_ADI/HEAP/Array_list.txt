@@ -1,0 +1,13 @@
+# Array_List -> https://www.geeksforgeeks.org/java/arraylist-in-java/ => gfg_link
+
+# Array_List -> https://www.w3schools.com/java/java_arraylist.asp => w3_school_link
+
+- Now you can use methods like add(), get(), set(), and remove() to manage your list of elements.
+- Operation ->  a,g s, r
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+which is better time complexicity
+Great question 👍 You’ve shown four time complexities in the image:
+
+O(√n) vs O(n)
+O(√n) vs O(log n)
+
+
+
+----------------Let’s compare:---------------------
+1) O(√n) vs O(n)
+
+As n grows large:
+√n grows much slower than n.
+Example: if n = 1,000,000 →
+√n = 1000
+n = 1,000,000
+
+
+
+
+
+---------------Better (faster) = O(√n)-----------------
+2) O(√n) vs O(log n)
+As n grows large:
+log n grows much slower than √n.
+Example: if n = 1,000,000 →
+
+√n = 1000
+log₂n ≈ 20
+
+
+
+----------------------- Better (faster) = O(log n)-----------------------
+📊 Final Ranking (from best to worst)
+O(log n)   → fastest (best)
+O(√n)      → slower
+O(n)       → slowest (worst)
+
+
+

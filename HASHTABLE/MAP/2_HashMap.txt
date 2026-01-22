@@ -1,0 +1,62 @@
+
+
+# HashMap : ->  https://www.w3schools.com/java/java_hashmap.asp => w3schools_link
+
+
+
+
+
+
+#Java HashMap
+A HashMap stores items in key/value pairs, where each key maps to a specific value.
+
+
+
+#A HashMap can store many different combinations, such as:
+String keys and Integer values
+String keys and String values
+
+
+
+
+#Create a HashMap
+import java.util.HashMap; // Import the HashMap class
+HashMap<String, String> capitalCities = new HashMap<>();
+
+
+
+# Now you can use methods like put() to add key/value pairs, get() to retrieve a value by key, and remove() to delete an entry - all by using keys instead of index numbers.
+
+
+
+
+
+//--------------------Print keys-------------------
+for (String i : capitalCities.keySet()) {
+  System.out.println(i);
+}
+
+
+
+
+
+//---------------------Print values---------------------
+for (String i : capitalCities.values()) {
+  System.out.println(i);
+}
+
+
+
+
+
+
+//-----------------Print keys and values-------------------
+for (String i : capitalCities.keySet()) {
+  System.out.println("key: " + i + " value: " + capitalCities.get(i));
+}
+
+
+
+
+
+

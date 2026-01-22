@@ -1,0 +1,5 @@
+first n then half then half continue this process occure then the time complexicity is O(logn) always
+
+
+
+

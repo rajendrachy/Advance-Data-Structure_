@@ -1,0 +1,79 @@
+
+
+# Java ArrayList : ->  https://www.w3schools.com/java/java_list.asp => w3schools_link
+
+
+
+
+
+
+# Java ArrayList 
+- An ArrayList is like a resizable array.
+
+
+
+
+# Create an ArrayList
+- To use an ArrayList, you must first import it from java.util:
+
+# Example
+- Create an ArrayList object called cars that will store strings:
+
+- import java.util.ArrayList; // Import the ArrayList class
+
+- ArrayList<String> cars = new ArrayList<String>(); // Create an ArrayList object
+
+
+
+- Now you can use methods like add(), get(), set(), and remove() to manage your list of elements.
+ - in the form of array , indexed base accessing
+
+
+
+
+
+
+
+
+
+# Loop Through an ArrayList
+- Loop through the elements of an ArrayList with a for loop, and use the size() method to specify how many times the loop should run:
+
+# Example: ->
+public class Main {
+  public static void main(String[] args) {
+    ArrayList<String> cars = new ArrayList<String>();
+    cars.add("Volvo");
+    cars.add("BMW");
+    cars.add("Ford");
+    cars.add("Mazda");
+    for (int i = 0; i < cars.size(); i++) {
+      System.out.println(cars.get(i));
+    }
+  }
+}
+
+
+
+
+
+
+
+# Sort an ArrayList
+- Another useful class in the java.util package is the Collections class, which include the sort() 
+method for sorting lists alphabetically or numerically:
+
+ - ArrayList<String> cars = new ArrayList<String>();
+ - Collections.sort(cars);  // Sort cars
+
+
+
+
+
+
+
+
+
+
+
+

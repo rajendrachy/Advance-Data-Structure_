@@ -1,0 +1,50 @@
+# LinkedHashMap : -> https://www.w3schools.com/java/java_linkedhashmap.asp => w3schools_link
+
+
+
+
+
+#Java LinkedHashMap
+A LinkedHashMap stores keys and values, and keeps them in the same order you put them in.
+It is part of the java.util package and implements the Map interface.
+
+
+#Tip: Use LinkedHashMap when you want predictable iteration order (insertion order).
+
+
+
+# ---------Create a LinkedHashMap----------
+Create a LinkedHashMap object called capitalCities that will store String keys and String values:
+
+#ExampleGet your own Java Server
+import java.util.LinkedHashMap; // Import the LinkedHashMap class
+LinkedHashMap<String, String> capitalCities = new LinkedHashMap<>();
+
+
+
+
+
+
+#Loop Through a LinkedHashMap
+You can loop through a LinkedHashMap using a for-each loop. Use:
+
+keySet() to get all keys
+values() to get all values
+
+
+
+
+
+// HashMap vs LinkedHashMap
+/*
+Feature        | HashMap                           | LinkedHashMap
+----------------------------------------------------------------------------------
+Order          | No guaranteed order               | Insertion order preserved
+Performance    | Faster for random access          | Slightly slower due to ordering
+Duplicates     | Keys must be unique               | Keys must be unique
+*/
+
+
+
+
+

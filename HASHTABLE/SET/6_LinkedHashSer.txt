@@ -1,0 +1,48 @@
+https://www.w3schools.com/java/java_linkedhashset.asp
+
+
+#Java LinkedHashSet
+A LinkedHashSet is a collection that stores unique elements and remembers the order they were added.
+
+
+#Tip: Use LinkedHashSet when you want a set that does not allow duplicates and keeps the original insertion order.
+
+
+
+#Create a LinkedHashSet
+import java.util.LinkedHashSet; // Import the LinkedHashSet class
+LinkedHashSet<String> cars = new LinkedHashSet<>();
+
+
+# Now you can use methods like add(), contains(), and remove() to manage your collection.
+
+
+
+
+// HashSet vs LinkedHashSet
+/*
+Feature       | HashSet                        | LinkedHashSet
+---------------------------------------------------------------------------
+Order         | No guaranteed order            | Insertion order preserved
+Duplicates    | Not allowed                    | Not allowed
+Performance   | Faster                         | Slightly slower (due to order tracking)
+
+
+
+
+
+
+#----------The var Keyword-------------
+// Without var
+LinkedHashSet<String> cars = new LinkedHashSet<String>();
+
+// With var
+var cars = new LinkedHashSet<String>();
+
+
+
+
+
+
+
+

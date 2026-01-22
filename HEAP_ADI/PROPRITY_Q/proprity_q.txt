@@ -1,0 +1,73 @@
+
+
+# Priority_queue => https://www.geeksforgeeks.org/java/priority-queue-in-java/ => gfg_link
+
+- A PriorityQueue in Java is a queue where elements are ordered based on their priority, rather than the order of insertion. By default, it uses natural ordering (min-heap), but a custom comparator can be used to define different priorities.
+- The default behavior is to implement min heap (minimum element has the top priority). We can make max heap by passing Collections.reverseOrder() while creating an object.
+- The size of the Priority Queue is dynamic, which means it increases or decreases as per the requirement.
+
+
+
+
+
+
+
+# AVL tree -> https://youtu.be/E9DOBLNB-aE?si=x6Urc_LyuW2OD68c => yt_link
+
+
+# Balance Binary Tree : -> https://www.geeksforgeeks.org/dsa/balanced-binary-tree/ => gfg_link
+
+
+
+
+# Priority Queue -> https://youtu.be/XGfa9jnDJNY?si=5gH1D0_jbDYzMlXV => yt_link
+
+
+
+
+
+
+# -----------All functions used in Priority Queue------------------
+
+PriorityQueue Functions in Java (with Work)
+
+add(E e) → Adds an element to the priority queue.
+
+offer(E e) → Inserts an element into the queue; returns true if successful.
+
+peek() → Returns (but does not remove) the head element of the queue.
+
+poll() → Returns and removes the head element of the queue.
+
+remove(Object o) → Removes a specific element from the queue if present.
+
+size() → Returns the total number of elements in the queue.
+
+contains(Object o) → Checks if the queue contains the specified element.
+
+isEmpty() → Checks if the queue is empty.
+
+toArray() → Converts the queue elements into an array.
+
+iterator() → Returns an iterator to traverse the elements of the queue.
+
+clear() → Removes all elements from the queue.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

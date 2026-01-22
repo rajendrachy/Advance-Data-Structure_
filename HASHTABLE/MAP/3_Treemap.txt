@@ -1,0 +1,43 @@
+
+
+
+# Tree HashMap : -> https://www.w3schools.com/java/java_treemap.asp => w3schools_link
+
+
+
+
+
+
+#Java TreeMap
+A TreeMap is a collection that stores key/value pairs in sorted order by key.
+It is part of the java.util package and implements the Map interface.
+
+#Tip: Unlike HashMap, which does not maintain order, TreeMap keeps its keys sorted.
+
+
+
+
+//----------------TreeMap vs HashMap--------------------
+/*
+Feature        | HashMap                        | TreeMap
+---------------------------------------------------------------------------
+Order          | No guaranteed order            | Sorted by keys
+Null Keys      | Allows one null key            | Does not allow null keys
+Performance    | Faster (no sorting)            | Slower (maintains sorted order)
+
+Tip: Use HashMap for performance, 
+     and TreeMap when you need sorted keys.
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+https://www.w3schools.com/java/java_treeset.asp
+
+
+#---------------Java TreeSet----------------
+A TreeSet is a collection that stores unique elements in sorted order.
+
+#Tip: Unlike HashSet, which has no order, TreeSet keeps its elements sorted automatically.
+
+
+#-----------Create a TreeSet----------------
+import java.util.TreeSet; // Import the TreeSet class
+TreeSet<String> cars = new TreeSet<>();
+#Now you can use methods like add(), contains(), and remove() to manage your sorted set of elements.
+
+
+
+# Use contains() to check if an element exists: it returns either true or false
+
+
+
+
+
+
+
+
+//--------------- HashSet vs TreeSet----------------------
+/*
+Feature       | HashSet                   | TreeSet
+-------------------------------------------------------------
+Order         | No guaranteed order       | Sorted (natural order)
+Duplicates    | Not allowed               | Not allowed
+Performance   | Faster (no sorting)       | Slower (due to sorting)
+*/
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+
+
+# Merge_Sort : ->  https://www.geeksforgeeks.org/dsa/merge-sort/ => gfg_link
+
+
+
+
+
+
+# Merge_Sort :
+
+- Merge sort is a popular sorting algorithm known for its efficiency and stability. It follows the Divide and Conquer approach.
+
+- It works by recursively dividing the input array into two halves, recursively sorting the two halves and finally merging them back together to obtain the sorted array.
+
+
+
+
+
+

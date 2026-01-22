@@ -1,0 +1,179 @@
+# Heap Data Structure : -> https://www.geeksforgeeks.org/dsa/heap-data-structure/ => gfg_link
+
+
+- A Heap is a complete binary tree(CBT) data structure that satisfies the heap property: for every node, the value of its children is greater than or equal to its own value.
+-  Heaps are usually used to implement priority queues
+
+
+# Complete binary tree -> https://youtube.com/shorts/RyiNab62gLA?si=XOOsLKxvqGRQpTaR => yt_link
+
+# Complete binary tree => https://youtu.be/z0Vnno96_MA?si=S7iklcm7LeNOZami => yt_link => Gate_Smashers
+
+# Complete binary tree => https://www.geeksforgeeks.org/dsa/complete-binary-tree/ => gfg_link
+
+
+
+
+
+
+
+
+
+
+
+
+# Introduction to heap => https://youtu.be/uuot9ItgTEI?si=vVsUF1vEsprHXjMR => yt_link
+# Heap -> 1. Min Heap -> Parent < child
+          2. Max Heap -> Parent > child
+
+
+
+
+# Condition to be a HEAP 
+ - Structure tree should be a Complete Binary tree
+ - Then check condition of Max heap OR Min Heap
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Insertion in Heap: ->  https://youtu.be/KzXpfxRzVQM?si=GGNsCcB5X8brG2Ow => yt_link
+ - Insert key one by one in given order -> T.C => O(nlogn)
+ - Heapify Method => O(n)
+
+- Max Heap construcr -> 3 : 30 sec => yt_link
+
+
+
+
+
+
+
+
+
+
+
+
+# IMP QN On Heap -> https://youtu.be/7gWrUhQxFIU?si=0TjW5rXoSS5OLlRW => yt_link
+
+
+
+
+
+
+
+
+
+
+# Build Heap in O(n) time complexity | Heapify Method : -> https://youtu.be/8noP3YjjJCM?si=LtWyCQaiT6c-jFJY => yt_link
+
+
+# Heapify Method => https://www.geeksforgeeks.org/java/heap-implementation-in-java/ => gfg_link
+
+
+
+
+
+
+
+
+# Deletion in Heap tree : -> https://youtu.be/4GsxDWMI7tQ?si=yncJbCUldJIPeU_l => yt_link
+ - T.C => O(1) -> Best case
+ - T.C => O(logn) -> Worst case
+
+
+
+
+
+# Heap sort with Example | Heapify Method ->  https://youtu.be/nJ6FdAIr_6g?si=r65ml5gBXia8tePD => yt_link
+
+
+
+
+
+
+
+
+
+
+
+
+#------------------T.C----------------
+/*
+===========================================================
+|        TIME COMPLEXITY COMPARISON TABLE (SUMMARY)       |
+===========================================================
+
+Operation-wise comparison of:
+→ Sorted Array
+→ Balanced BST (AVL / Red-Black Tree)
+→ Min Heap
+
+-----------------------------------------------------------
+| Operation      | Sorted Array | Balanced BST | Min Heap |
+-----------------------------------------------------------
+| getMin()       | O(1)         | O(log n)     | O(1)     |
+| insert(x)      | O(n)         | O(log n)     | O(log n) |
+| deleteMin()    | O(1) or O(n) | O(log n)     | O(log n) |
+-----------------------------------------------------------
+
+EXPLANATION:
+
+1. Sorted Array:
+   - getMin(): O(1) → minimum is at one end (beginning or end).
+   - insert(): O(n) → requires shifting elements to maintain order.
+   - deleteMin(): O(1) if deleting from the end, O(n) if from the start.
+
+2. Balanced BST (AVL / Red-Black Tree):
+   - getMin(): O(log n) → go to the leftmost node.
+   - insert(): O(log n) → tree stays balanced after rotations.
+   - deleteMin(): O(log n) → remove leftmost node and rebalance.
+
+3. Min Heap:
+   - getMin(): O(1) → root always contains the minimum value.
+   - insert(): O(log n) → element added at end, then heapify-up.
+   - deleteMin(): O(log n) → remove root, replace with last, heapify-down.
+
+-----------------------------------------------------------
+| SUMMARY |
+-----------------------------------------------------------
+- For static sorted data → use Sorted Array.
+- For dynamic, balanced data → use Balanced BST.
+- For priority queue operations → use Min Heap.
+===========================================================
+*/
+
+# -----------------Out of three min Heap is best--------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

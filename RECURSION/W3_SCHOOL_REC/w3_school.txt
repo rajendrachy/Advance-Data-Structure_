@@ -1,0 +1,21 @@
+# W3School: -> https://www.w3schools.com/java/java_recursion.asp => w3schools_link
+
+
+
+
+# Java Recursion
+Recursion is the technique of making a function call itself. This technique provides a way to break complicated problems down into simpler problems which are easier to solve.
+
+Recursion may be a bit difficult to understand. The best way to figure out how it works is to experiment with it.
+
+
+
+
+
+
+
+
+
+
+
+

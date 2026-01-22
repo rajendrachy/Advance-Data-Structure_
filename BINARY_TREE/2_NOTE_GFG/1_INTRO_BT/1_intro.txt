@@ -1,0 +1,112 @@
+
+#Introduction to Binary Tree : -> https://www.geeksforgeeks.org/dsa/introduction-to-binary-tree/ => gfg_link
+
+
+-> Binary Tree is a non-linear and hierarchical data structure where each node has at most two children referred to as the left child and the right child.  
+
+-> The topmost node in a binary tree is called the root, and the bottom-most nodes are called leaves.
+
+
+
+
+
+
+
+
+
+# Representation of Binary Tree
+-> Each node in a Binary Tree has three parts:
+.Data
+.Pointer to the left child
+.Pointer to the right child
+
+
+
+
+
+
+
+
+
+
+------------------------------------------
+# Create/Declare a Node of a Binary Tree
+------------------------------------------
+
+
+
+
+
+
+
+#Terminologies in Binary Tree
+1.Node: Basic unit containing data and links to two children.
+
+2.Root: Topmost node; has no parent.
+
+3.Parent Node: A node with at least one child.
+
+4.Child Node: A node that descends from a parent node.
+
+5.Leaf Node: A node with no children.
+
+6.Internal Node: A node with at least one child (not a leaf).
+
+7.Depth: Number of edges from the node to the root.
+
+8.Height: Number of nodes (or edges) on the longest path from root to the deepest leaf.
+
+
+
+
+
+
+
+#-------------------Operations On Binary Tree---------------------------
+1. Traversal
+Tree Traversal algorithms can be classified broadly into two categories, DFS and BFS:
+-> Depth-First Search (DFS) algorithms: DFS explores as far down a branch as possible before backtracking. It is implemented using recursion. The main traversal methods in DFS for binary trees are:
+
+=> Preorder Traversal (current-left-right): Visits the node first, then left subtree, then right subtree.
+=> Inorder Traversal (left-current-right): Visits left subtree, then the node, then the right subtree.
+=> Postorder Traversal (left-right-current): Visits left subtree, then right subtree, then the node.
+
+
+
+
+
+
+#Breadth-First Search (BFS) algorithms: BFS explores all nodes at the present depth before moving on to nodes at the next depth level. It is typically implemented using a queue. BFS in a binary tree is commonly referred to as Level Order Traversal.
+
+
+
+
+
+
+
+
+
+
+
+#-----------------Complexity Analysis of Binary Tree Operations-------------------------
+Operation              Time Complexity    Auxiliary Space
+----------------------------------------------------------
+In-Order Traversal      O(n)              O(n)
+Pre-Order Traversal     O(n)              O(n)
+Post-Order Traversal    O(n)              O(n)
+Searching (Unbalanced)  O(n)              O(n)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

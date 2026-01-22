@@ -1,0 +1,99 @@
+
+# Properties of Binary Tree
+1. Maximum Nodes at Level 'l' :
+- A binary tree can have at most 2l nodes at level l.
+
+
+
+
+2. Maximum Nodes in a Binary Tree of Height 'h' :
+- A binary tree of height h can have at most 2^h+1 - 1 nodes.
+
+
+
+
+3. Minimum Height for 'N' Nodes
+- The minimum possible height for N nodes is ⌊log⁡2N⌋.
+
+
+
+
+
+
+6. Total Edges in a Binary Tree
+- In any non-empty binary tree with n nodes, the total number of edges is n - 1.
+- Since there are n nodes, there must be n - 1 edges.
+
+
+
+
+
+# Each node has at most two children.
+. 0 children → Leaf Node
+. 1 child → Unary Node
+. 2 children → Binary Node
+
+
+
+
+
+
+
+# Types of Binary Trees
+
+
+. Full Binary Tree → https://www.geeksforgeeks.org/dsa/full-binary-tree/ => gfg_link
+
+
+
+
+. Complete Binary Tree →  https://www.geeksforgeeks.org/dsa/complete-binary-tree/ => gfg_link
+
+
+
+
+. Perfect Binary Tree → https://www.geeksforgeeks.org/dsa/perfect-binary-tree/ => gfg_link
+
+
+
+
+
+. Balanced Binary Tree → https://www.geeksforgeeks.org/dsa/balanced-binary-tree/ => gfg_link
+
+
+# Balanced Binary Tree:->  https://youtu.be/Yt50Jfbd8Po?si=F3zmEzZJ3iyZluSk => yt_link
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Tree Traversal Methods
+1. DFS Traversals: Explore one branch fully before backtracking.
+. In-Order (LNR): Left → Node → Right (retrieves BST elements in sorted order).
+. Pre-Order (NLR): Node → Left → Right (used for tree reconstruction).
+. Post-Order (LRN): Left → Right → Node (helps in deleting or evaluating expressions).
+
+
+
+2. BFS Traversals: Visit nodes level by level.
+. Level-Order: Processes nodes from top to bottom (used in shortest path algorithms).
+
+
+
+
+
+
+
+
+
